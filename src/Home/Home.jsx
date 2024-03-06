@@ -1,8 +1,9 @@
+import Header from "./Header";
 
 export default function Home() {
     return (
-        <div>
-            <h1>Header Section</h1>
+        <div className="font-Inter">
+            <Header></Header>
         </div>
     )
 }
