@@ -13,7 +13,7 @@ export default function Home() {
         <div className="font-Inter">
             <Header></Header>
             <Featured></Featured>
-            <div className="h-[350px] border border-red-500 mx-auto">
+            <div className="h-[350px]">
                 <DealsAndOffer></DealsAndOffer>
             </div>
             <PopularAirlines></PopularAirlines>

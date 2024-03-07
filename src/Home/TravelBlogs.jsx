@@ -20,7 +20,7 @@ import { Keyboard, Scrollbar, Navigation, Pagination } from 'swiper/modules';
 
 const TravelBlogs = () => {
     return (
-        <div>
+        <div className='md:mt-32 md:px-10'>
             <Swiper
                 slidesPerView={1}
                 centeredSlides={false}
@@ -35,7 +35,7 @@ const TravelBlogs = () => {
                         slidesPerGroup: 3,
                     },
                 }}
-                scrollbar={true}
+
                 navigation={true}
                 pagination={{
                     clickable: true,
@@ -44,98 +44,106 @@ const TravelBlogs = () => {
                 className="mySwiper"
             >
                 <SwiperSlide>
-                    <div className="card bg-base-100 shadow-xl mx-4 my-4">
+                    <div className="card rounded-lg  bg-base-100 shadow-xl mx-4 my-4">
                         <figure className="">
                             <img src={image1} alt="Shoes" className="w-full rounded-xl" />
                         </figure>
-                        <div className='flex justify-between mt-3'>
-                            <p className='text-yellow-300'>
-                                Work The Travel
-                            </p>
-                            <p>
-                                18 September 2023
-                            </p>
-                        </div>
-                        <h1 className='font-bold text-xl mb-4'>Embracing The Digital Nomad Lifestyle The Digital NOman Thr...</h1>
-                        <hr />
-                        <div className="mt-4 flex justify-between items-center">
-                            <div className='flex items-center gap-2'>
-                                <img className='w-12 h-12 object-cover rounded-full' src={avater1} alt="" />
-                                <p>Ys Stafed</p>
+                        <div className='px-2'>
+                            <div className='flex justify-between mt-3 '>
+                                <p className='text-yellow-300'>
+                                    Work The Travel
+                                </p>
+                                <p>
+                                    18 September 2023
+                                </p>
                             </div>
-                            <button className='text-yellow-500'>Read More >> </button>
+                            <h1 className='font-bold text-xl mb-4'>Embracing The Digital Nomad Lifestyle The Digital NOman Thr...</h1>
+                            <hr />
+                            <div className="mt-4 flex p-4 justify-between items-center">
+                                <div className='flex items-center gap-2'>
+                                    <img className='w-12 h-12 object-cover rounded-full' src={avater1} alt="" />
+                                    <p>Ys Stafed</p>
+                                </div>
+                                <button className='text-yellow-500'>Read More >> </button>
+                            </div>
                         </div>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className="card bg-base-100 shadow-xl mx-4 my-4">
+                    <div className="card rounded-lg bg-base-100 shadow-xl mx-4 my-4">
                         <figure className="">
                             <img src={image2} alt="Shoes" className="w-full rounded-xl" />
                         </figure>
-                        <div className='flex justify-between mt-3'>
-                            <p className='text-yellow-300'>
-                                Work The Travel
-                            </p>
-                            <p>
-                                18 September 2023
-                            </p>
-                        </div>
-                        <h1 className='font-bold text-xl mb-4'>Embracing The Digital Nomad Lifestyle The Digital NOman Thr...</h1>
-                        <hr />
-                        <div className="mt-4 flex justify-between items-center">
-                            <div className='flex items-center gap-2'>
-                                <img className='w-12 h-12 object-cover rounded-full' src={avater2} alt="" />
-                                <p>Ys Stafed</p>
+                        <div className='md:px-2'>
+                            <div className='flex justify-between mt-3'>
+                                <p className='text-yellow-300'>
+                                    Work The Travel
+                                </p>
+                                <p>
+                                    18 September 2023
+                                </p>
                             </div>
-                            <button className='text-yellow-500'>Read More >> </button>
+                            <h1 className='font-bold text-xl mb-4'>Embracing The Digital Nomad Lifestyle The Digital NOman Thr...</h1>
+                            <hr />
+                            <div className="mt-4 flex justify-between items-center">
+                                <div className='flex p-4 items-center gap-2'>
+                                    <img className='w-12 h-12 object-cover rounded-full' src={avater2} alt="" />
+                                    <p>Ys Stafed</p>
+                                </div>
+                                <button className='text-yellow-500'>Read More >> </button>
+                            </div>
                         </div>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className="card bg-base-100 shadow-xl mx-4 my-4">
+                    <div className="card rounded-lg bg-base-100 shadow-xl mx-4 my-4">
                         <figure className="">
                             <img src={image3} alt="Shoes" className="w-full rounded-xl" />
                         </figure>
-                        <div className='flex justify-between mt-3'>
-                            <p className='text-yellow-300'>
-                                Work The Travel
-                            </p>
-                            <p>
-                                18 September 2023
-                            </p>
-                        </div>
-                        <h1 className='font-bold text-xl mb-4'>Embracing The Digital Nomad Lifestyle The Digital NOman Thr...</h1>
-                        <hr />
-                        <div className="mt-4 flex justify-between items-center">
-                            <div className='flex items-center gap-2'>
-                                <img className='w-12 h-12 object-cover rounded-full' src={avater3} alt="" />
-                                <p>Ys Stafed</p>
+                        <div className='px-2'>
+                            <div className='flex justify-between mt-3'>
+                                <p className='text-yellow-300'>
+                                    Work The Travel
+                                </p>
+                                <p>
+                                    18 September 2023
+                                </p>
                             </div>
-                            <button className='text-yellow-500'>Read More >> </button>
+                            <h1 className='font-bold text-xl mb-4'>Embracing The Digital Nomad Lifestyle The Digital NOman Thr...</h1>
+                            <hr />
+                            <div className="mt-4 flex justify-between items-center">
+                                <div className='flex p-4 items-center gap-2'>
+                                    <img className='w-12 h-12 object-cover rounded-full' src={avater3} alt="" />
+                                    <p>Ys Stafed</p>
+                                </div>
+                                <button className='text-yellow-500'>Read More >> </button>
+                            </div>
                         </div>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className="card bg-base-100 shadow-xl mx-4 my-4">
+                    <div className="card rounded-lg bg-base-100 shadow-xl mx-4 my-4">
                         <figure className="">
                             <img src={image2} alt="Shoes" className="w-full rounded-xl" />
                         </figure>
-                        <div className='flex justify-between mt-3'>
-                            <p className='text-yellow-300'>
-                                Work The Travel
-                            </p>
-                            <p>
-                                18 September 2023
-                            </p>
-                        </div>
-                        <h1 className='font-bold text-xl mb-4'>Embracing The Digital Nomad Lifestyle The Digital NOman Thr...</h1>
-                        <hr />
-                        <div className="mt-4 flex justify-between items-center">
-                            <div className='flex items-center gap-2'>
-                                <img className='w-12 h-12 object-cover rounded-full' src={avater2} alt="" />
-                                <p>Ys Stafed</p>
+                        <div className='md:px-2'>
+                            <div className='flex justify-between mt-3'>
+                                <p className='text-yellow-300'>
+                                    Work The Travel
+                                </p>
+                                <p>
+                                    18 September 2023
+                                </p>
                             </div>
-                            <button className='text-yellow-500'>Read More >> </button>
+                            <h1 className='font-bold text-xl mb-4'>Embracing The Digital Nomad Lifestyle The Digital NOman Thr...</h1>
+                            <hr />
+                            <div className="mt-4 flex justify-between items-center">
+                                <div className='flex p-4 items-center gap-2'>
+                                    <img className='w-12 h-12 object-cover rounded-full' src={avater2} alt="" />
+                                    <p>Ys Stafed</p>
+                                </div>
+                                <button className='text-yellow-500'>Read More >> </button>
+                            </div>
                         </div>
                     </div>
                 </SwiperSlide>

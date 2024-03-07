@@ -8,16 +8,16 @@ import Singapore from '../assets/Icons/Singapore Airlines.png'
 import Turkish from '../assets/Icons/Turkish Airlines.png'
 const PopularAirlines = () => {
     return (
-        <div>
-            <h1 className="text-2xl font-bold">Popular Airlines</h1>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div className="md:px-10">
+            <h1 className="text-xl md:text-3xl md:mt-32 font-bold md:mb-10 ">Popular Airlines</h1>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 ">
                 {/* BBA */}
                 <div className="flex">
                     <img className="w-12 h-12 rounded-full" src={BBA} alt="BBA" />
                     <div>
                         <h3 className="text-base font-bold">Biman Bangladesh Airlines</h3>
-                        <div className="flex items-center">
-                            <CiStar className=" w-4 h-4 rounded-full text-yellow-600 text-2xl"></CiStar>
+                        <div className="flex gap-2 items-center">
+                            <img className="w-4 h-4" src="https://uxwing.com/wp-content/themes/uxwing/download/arts-graphic-shapes/star-icon.png" alt="" />
                             <p>0.1</p>
                             <p>(783 Review)</p>
                         </div>
@@ -29,7 +29,7 @@ const PopularAirlines = () => {
                     <div>
                         <h3 className="text-base font-bold">American Airlines</h3>
                         <div className="flex items-center">
-                            <CiStar className=" w-4 h-4 rounded-full text-yellow-600 text-2xl"></CiStar>
+                            <img className="w-4 h-4" src="https://uxwing.com/wp-content/themes/uxwing/download/arts-graphic-shapes/star-icon.png" alt="" />
                             <p>5</p>
                             <p>(783 Review)</p>
                         </div>
@@ -41,7 +41,7 @@ const PopularAirlines = () => {
                     <div>
                         <h3 className="text-base font-bold">Emirates Airlines</h3>
                         <div className="flex items-center">
-                            <CiStar className=" w-4 h-4 rounded-full text-yellow-600 text-2xl"></CiStar>
+                            <img className="w-4 h-4" src="https://uxwing.com/wp-content/themes/uxwing/download/arts-graphic-shapes/star-icon.png" alt="" />
                             <p>5</p>
                             <p>(783 Review)</p>
                         </div>
@@ -53,7 +53,7 @@ const PopularAirlines = () => {
                     <div>
                         <h3 className="text-base font-bold">Malaysia1 Airlines</h3>
                         <div className="flex items-center">
-                            <CiStar className=" w-4 h-4 rounded-full text-yellow-600 text-2xl"></CiStar>
+                            <img className="w-4 h-4" src="https://uxwing.com/wp-content/themes/uxwing/download/arts-graphic-shapes/star-icon.png" alt="" />
                             <p>4</p>
                             <p>(783 Review)</p>
                         </div>
@@ -65,7 +65,7 @@ const PopularAirlines = () => {
                     <div>
                         <h3 className="text-base font-bold">Malaysia1 Airlines</h3>
                         <div className="flex items-center">
-                            <CiStar className=" w-4 h-4 rounded-full text-yellow-600 text-2xl"></CiStar>
+                            <img className="w-4 h-4" src="https://uxwing.com/wp-content/themes/uxwing/download/arts-graphic-shapes/star-icon.png" alt="" />
                             <p>5</p>
                             <p>(783 Review)</p>
                         </div>
@@ -77,7 +77,7 @@ const PopularAirlines = () => {
                     <div>
                         <h3 className="text-base font-bold">Singapore Airlines</h3>
                         <div className="flex items-center">
-                            <CiStar className=" w-4 h-4 rounded-full text-yellow-600 text-2xl"></CiStar>
+                            <img className="w-4 h-4" src="https://uxwing.com/wp-content/themes/uxwing/download/arts-graphic-shapes/star-icon.png" alt="" />
                             <p>4</p>
                             <p>(783 Review)</p>
                         </div>
@@ -89,7 +89,7 @@ const PopularAirlines = () => {
                     <div>
                         <h3 className="text-base font-bold">Turkish Airlines</h3>
                         <div className="flex items-center justify-center">
-                            <CiStar className=" w-4 h-4 rounded-full text-yellow-600 text-2xl"></CiStar>
+                            <img className="w-4 h-4" src="https://uxwing.com/wp-content/themes/uxwing/download/arts-graphic-shapes/star-icon.png" alt="" />
                             <p>5</p>
                             <p>(783 Review)</p>
                         </div>
