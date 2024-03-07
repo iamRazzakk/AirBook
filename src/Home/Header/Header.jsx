@@ -50,9 +50,9 @@ export default function Header() {
                     </div>
                 </div>
                 {/* Input fiend and serch section */}
-                <div>
+                <div className='flex items-center justify-center w-full'>
                     {/* first one */}
-                    <div className="flex gap-4 p-4 bg-black text-white">
+                    <div className="flex gap-4 p-4 bg-white text-black">
                         <h1>DAC</h1>
                         <div>
                             <h1>Dhaka</h1>
@@ -60,7 +60,7 @@ export default function Header() {
                         </div>
                     </div>
                     {/* Secound one */}
-                    <div className="flex gap-4 p-4 bg-black text-white">
+                    <div className="flex gap-4 p-4 bg-white text-black">
                         <h1>Cxb's</h1>
                         <div>
                             <h1>Dhaka</h1>
@@ -68,7 +68,7 @@ export default function Header() {
                         </div>
                     </div>
                     {/* Third one */}
-                    <div className="flex gap-4 p-4 bg-black text-white">
+                    <div className="flex gap-4 p-4 bg-white text-black">
                         <h1>03</h1>
                         <div>
                             <h1>Octobee</h1>
@@ -76,7 +76,7 @@ export default function Header() {
                         </div>
                     </div>
                     {/* Four one */}
-                    <div className="flex gap-4 p-4 bg-black text-white">
+                    <div className="flex gap-4 p-4 bg-white text-black">
                         <h1>05</h1>
                         <div>
                             <h1>Octobee</h1>
@@ -84,8 +84,8 @@ export default function Header() {
                         </div>
                     </div>
                     <div>
-                        <button>
-                            <CiSearch></CiSearch>
+                        <button className='bg-yellow-400 p-6 text-white'>
+                            <CiSearch className='text-2xl'></CiSearch>
                         </button>
                     </div>
                 </div>
