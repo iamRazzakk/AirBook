@@ -4,6 +4,8 @@ import DealsAndOffer from "./DealsAndOffer";
 import PopularAirlines from "./PopularAirlines";
 import Testimonials from "./Testimonials";
 import TravelBlogs from "./TravelBlogs";
+import Subscribe from "./Subscribe";
+import Footer from "./Footer";
 
 
 export default function Home() {
@@ -17,6 +19,8 @@ export default function Home() {
             <PopularAirlines></PopularAirlines>
             <Testimonials></Testimonials>
             <TravelBlogs></TravelBlogs>
+            <Subscribe></Subscribe>
+            <Footer></Footer>
         </div>
     )
 }

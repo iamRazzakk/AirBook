@@ -1,6 +1,6 @@
-import image1 from '../assets/Rectangle 18-11.png'
-import image2 from '../assets/Rectangle 18-22.png'
-import image3 from '../assets/Rectangle 181.png'
+import image1 from '../assets/BlogsImage/Rectangle1.png'
+import image2 from '../assets/BlogsImage/Rectangle2.png'
+import image3 from '../assets/BlogsImage/Rectangle3.png'
 
 const Featured = () => {
     return (
