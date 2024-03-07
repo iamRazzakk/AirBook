@@ -8,7 +8,7 @@ import Singapore from '../assets/Icons/Singapore Airlines.png'
 import Turkish from '../assets/Icons/Turkish Airlines.png'
 const PopularAirlines = () => {
     return (
-        <div className="md:px-10">
+        <div className="md:px-10 px-4 mt-10 md:mt-0 lg:mt-0">
             <h1 className="text-xl md:text-3xl md:mt-32 font-bold md:mb-10 ">Popular Airlines</h1>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 ">
                 {/* BBA */}

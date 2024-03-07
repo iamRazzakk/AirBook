@@ -10,7 +10,7 @@ import image3 from '../assets/slider3.png';
 
 const DealsAndOffer = () => {
     return (
-        <div className='md:px-10'>
+        <div className='px-4 md:px-10'>
             <h1 className="text-xl md:mb-10 md:mt-32 md:text-3xl font-bold">Deals And Offers</h1>
             <div className='px-4 py-2'>
                 <Swiper

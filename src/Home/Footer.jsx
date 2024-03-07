@@ -6,15 +6,15 @@ import INLOgo from '../assets/logo/Union.png'
 const Footer = () => {
     return (
         <div className='bg-blue-600 text-white'>
-            <footer className="flex p-20 md:h-[300px]">
-                <nav className="flex-1">
+            <footer className="md:flex p-20 md:h-[300px]">
+                <nav className="flex-1 mt-4 md:mt-0 lg:mt-0">
                     <h6 className="footer-title">Adress</h6>
                     <ul>
                         <li>Hourse -75,ka <br /> main Rd, Dhaka 1216</li>
                         <li className="cursor-pointer mt-4">View On map</li>
                     </ul>
                 </nav>
-                <nav className="flex-1">
+                <nav className="flex-1 mt-4 md:mt-0 lg:mt-0">
                     <h6 className="footer-title">Company</h6>
                     <ul>
                         <li>About us</li>
@@ -23,7 +23,7 @@ const Footer = () => {
                         <li>Press kit</li>
                     </ul>
                 </nav>
-                <nav className="flex-1">
+                <nav className="flex-1 mt-4 md:mt-0 lg:mt-0">
                     <h6 className="footer-title">Legal</h6>
                     <ul>
                         <li>Terms of use</li>
@@ -31,7 +31,7 @@ const Footer = () => {
                         <li>Cookie policy</li>
                     </ul>
                 </nav>
-                <nav className="flex-1">
+                <nav className="flex-1 mt-4 md:mt-0 lg:mt-0">
                     <h6 className="footer-title">Contact</h6>
                     <ul>
                         <li>+85413223</li>
