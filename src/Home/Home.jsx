@@ -1,6 +1,9 @@
 import Header from "./Header/Header";
 import Featured from "./Featured";
 import DealsAndOffer from "./DealsAndOffer";
+import PopularAirlines from "./PopularAirlines";
+import Testimonials from "./Testimonials";
+import TravelBlogs from "./TravelBlogs";
 
 
 export default function Home() {
@@ -8,9 +11,12 @@ export default function Home() {
         <div className="font-Inter">
             <Header></Header>
             <Featured></Featured>
-            <div className="px-6">
+            <div className="h-[350px] border border-red-500 mx-auto">
                 <DealsAndOffer></DealsAndOffer>
             </div>
+            <PopularAirlines></PopularAirlines>
+            <Testimonials></Testimonials>
+            <TravelBlogs></TravelBlogs>
         </div>
     )
 }
