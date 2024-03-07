@@ -1,24 +1,166 @@
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/scrollbar';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+
+import image1 from '../assets/BlogsImage/Rectangle1.png'
+import image2 from '../assets/BlogsImage/Rectangle2.png'
+import image3 from '../assets/BlogsImage/Rectangle3.png'
+
+// import required modules
+import { Keyboard, Scrollbar, Navigation, Pagination } from 'swiper/modules';
+
 
 
 const TravelBlogs = () => {
     return (
         <div>
-            <div className="carousel w-full">
-                <div id="slide1" className="carousel-item relative w-full">
-                    <img alt="" src="https://daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.jpg" className="w-full" />
-                    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <a href="#slide4" className="btn btn-circle">❮</a>
-                        <a href="#slide2" className="btn btn-circle">❯</a>
+            <Swiper
+                slidesPerView={1}
+                centeredSlides={false}
+                slidesPerGroupSkip={1}
+                grabCursor={true}
+                keyboard={{
+                    enabled: true,
+                }}
+                breakpoints={{
+                    769: {
+                        slidesPerView: 3,
+                        slidesPerGroup: 3,
+                    },
+                }}
+                scrollbar={true}
+                navigation={true}
+                pagination={{
+                    clickable: true,
+                }}
+                modules={[Keyboard, Scrollbar, Navigation, Pagination]}
+                className="mySwiper"
+            >
+                <SwiperSlide>
+                    <div className="card bg-base-100 shadow-xl mx-4 my-4">
+                        <figure className="">
+                            <img src={image1} alt="Shoes" className="w-full rounded-xl" />
+                        </figure>
+                        <div className='flex justify-between mt-3'>
+                            <p className='text-yellow-300'>
+                                Work The Travel
+                            </p>
+                            <p>
+                                18 September 2023
+                            </p>
+                        </div>
+                        <h1 className='font-bold text-xl mb-4'>Embracing The Digital Nomad Lifestyle The Digital NOman Thr...</h1>
+                        <hr />
+                        <div className="mt-4 flex justify-between items-center">
+                            <div className='flex items-center gap-2'>
+                                <img src="" alt="" />
+                                <p>Ys Stafed</p>
+                            </div>
+                            <button className='text-yellow-500'>Read More >> </button>
+                        </div>
                     </div>
-                </div>
-                <div id="slide2" className="carousel-item relative w-full">
-                    <img alt="" src="https://daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg" className="w-full" />
-                    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <a href="#slide1" className="btn btn-circle">❮</a>
-                        <a href="#slide3" className="btn btn-circle">❯</a>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className="card bg-base-100 shadow-xl mx-4 my-4">
+                        <figure className="">
+                            <img src={image2} alt="Shoes" className="w-full rounded-xl" />
+                        </figure>
+                        <div className='flex justify-between mt-3'>
+                            <p className='text-yellow-300'>
+                                Work The Travel
+                            </p>
+                            <p>
+                                18 September 2023
+                            </p>
+                        </div>
+                        <h1 className='font-bold text-xl mb-4'>Embracing The Digital Nomad Lifestyle The Digital NOman Thr...</h1>
+                        <hr />
+                        <div className="mt-4 flex justify-between items-center">
+                            <div className='flex items-center gap-2'>
+                                <img src="" alt="" />
+                                <p>Ys Stafed</p>
+                            </div>
+                            <button className='text-yellow-500'>Read More >> </button>
+                        </div>
                     </div>
-                </div>
-            </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className="card bg-base-100 shadow-xl mx-4 my-4">
+                        <figure className="">
+                            <img src={image3} alt="Shoes" className="w-full rounded-xl" />
+                        </figure>
+                        <div className='flex justify-between mt-3'>
+                            <p className='text-yellow-300'>
+                                Work The Travel
+                            </p>
+                            <p>
+                                18 September 2023
+                            </p>
+                        </div>
+                        <h1 className='font-bold text-xl mb-4'>Embracing The Digital Nomad Lifestyle The Digital NOman Thr...</h1>
+                        <hr />
+                        <div className="mt-4 flex justify-between items-center">
+                            <div className='flex items-center gap-2'>
+                                <img src="" alt="" />
+                                <p>Ys Stafed</p>
+                            </div>
+                            <button className='text-yellow-500'>Read More >> </button>
+                        </div>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className="card bg-base-100 shadow-xl mx-4 my-4">
+                        <figure className="">
+                            <img src={image2} alt="Shoes" className="w-full rounded-xl" />
+                        </figure>
+                        <div className='flex justify-between mt-3'>
+                            <p className='text-yellow-300'>
+                                Work The Travel
+                            </p>
+                            <p>
+                                18 September 2023
+                            </p>
+                        </div>
+                        <h1 className='font-bold text-xl mb-4'>Embracing The Digital Nomad Lifestyle The Digital NOman Thr...</h1>
+                        <hr />
+                        <div className="mt-4 flex justify-between items-center">
+                            <div className='flex items-center gap-2'>
+                                <img src="" alt="" />
+                                <p>Ys Stafed</p>
+                            </div>
+                            <button className='text-yellow-500'>Read More >> </button>
+                        </div>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className="card bg-base-100 shadow-xl mx-4 my-4">
+                        <figure className="">
+                            <img src={image1} alt="Shoes" className="w-full rounded-xl" />
+                        </figure>
+                        <div className='flex justify-between mt-3'>
+                            <p className='text-yellow-300'>
+                                Work The Travel
+                            </p>
+                            <p>
+                                18 September 2023
+                            </p>
+                        </div>
+                        <h1 className='font-bold text-xl mb-4'>Embracing The Digital Nomad Lifestyle The Digital NOman Thr...</h1>
+                        <hr />
+                        <div className="mt-4 flex justify-between items-center">
+                            <div className='flex items-center gap-2'>
+                                <img src="" alt="" />
+                                <p>Ys Stafed</p>
+                            </div>
+                            <button className='text-yellow-500'>Read More >> </button>
+                        </div>
+                    </div>
+                </SwiperSlide>
+            </Swiper>
         </div>
     );
 };
