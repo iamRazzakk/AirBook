@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
@@ -37,9 +37,6 @@ const TravelBlogs = () => {
                 }}
 
                 navigation={true}
-                pagination={{
-                    clickable: true,
-                }}
                 modules={[Keyboard, Scrollbar, Navigation, Pagination]}
                 className="mySwiper"
             >
@@ -64,7 +61,7 @@ const TravelBlogs = () => {
                                     <img className='w-12 h-12 object-cover rounded-full' src={avater1} alt="" />
                                     <p>Ys Stafed</p>
                                 </div>
-                                <button className='text-yellow-500'>Read More >> </button>
+                                <button className='text-yellow-500'>Read More </button>
                             </div>
                         </div>
                     </div>
@@ -90,7 +87,7 @@ const TravelBlogs = () => {
                                     <img className='w-12 h-12 object-cover rounded-full' src={avater2} alt="" />
                                     <p>Ys Stafed</p>
                                 </div>
-                                <button className='text-yellow-500'>Read More >> </button>
+                                <button className='text-yellow-500'>Read More </button>
                             </div>
                         </div>
                     </div>
@@ -116,7 +113,7 @@ const TravelBlogs = () => {
                                     <img className='w-12 h-12 object-cover rounded-full' src={avater3} alt="" />
                                     <p>Ys Stafed</p>
                                 </div>
-                                <button className='text-yellow-500'>Read More >> </button>
+                                <button className='text-yellow-500'>Read More </button>
                             </div>
                         </div>
                     </div>
@@ -142,7 +139,7 @@ const TravelBlogs = () => {
                                     <img className='w-12 h-12 object-cover rounded-full' src={avater2} alt="" />
                                     <p>Ys Stafed</p>
                                 </div>
-                                <button className='text-yellow-500'>Read More >> </button>
+                                <button className='text-yellow-500'>Read More </button>
                             </div>
                         </div>
                     </div>

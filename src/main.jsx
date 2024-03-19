@@ -6,7 +6,7 @@ import myCreatedRouter from './Components/Router/Router'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <div className='md:w-full mx-auto'>
+    <div className='md:w-full mx-auto font-Poppins'>
       <RouterProvider router={myCreatedRouter}>
       </RouterProvider>
     </div>
