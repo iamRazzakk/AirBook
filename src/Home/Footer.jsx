@@ -6,7 +6,7 @@ import INLOgo from '../assets/logo/Union.png'
 const Footer = () => {
     return (
         <div className='bg-blue-600 text-white'>
-            <footer className="md:flex p-20 md:h-[300px]">
+            <footer className="md:flex items-center p-20 md:h-[300px]">
                 <nav className="flex-1 mt-4 md:mt-0 lg:mt-0">
                     <h6 className="footer-title">Adress</h6>
                     <ul>
@@ -41,17 +41,17 @@ const Footer = () => {
                 </nav>
             </footer>
             <hr className='bg-black' />
-            <div className="flex md:h-[100px]">
+            <div className="flex items-center md:h-[100px]">
                 <div className='flex-1'>
-                    <img className=' object-cover ' src={LOgo} alt="" />
+                    <img className=' object-cover text-white' src={LOgo} alt="" />
                 </div>
                 {/* copywright */}
                 <p className='flex-1 items-center flex'>Copyright AirBook</p>
                 {/* icons */}
                 <div className="flex gap-4 justify-center items-center flex-1">
-                    <img className='h-6 w-6 cursor-pointer ' src={FaceBookLOgo} alt="" />
-                    <img className='h-6 w-6 cursor-pointer ' src={YtLOgo} alt="" />
-                    <img className='h-6 w-6 cursor-pointer ' src={INLOgo} alt="" />
+                    <img className='h-6 w-6 p-1 cursor-pointer object-cover' src={FaceBookLOgo} alt="" />
+                    <img className='h-6 w-6 p-1 cursor-pointer object-cover' src={YtLOgo} alt="" />
+                    <img className='h-6 w-6 p-1 cursor-pointer object-cover' src={INLOgo} alt="" />
                 </div>
             </div>
         </div>
