@@ -4,7 +4,7 @@ import image3 from '../assets/BlogsImage/Rectangle3.png'
 
 const Featured = () => {
     return (
-        <div className='mt-[480px] md:mt-60 md:px-10'>
+        <div className=' md:mt-60 lg:mt-32 md:px-10 border border-blue-500 '>
             <h1 className='text-xl md:text-3xl font-bold px-6'>Featured destination</h1>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                 {/* first card */}
